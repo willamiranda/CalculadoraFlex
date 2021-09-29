@@ -1,0 +1,63 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background: blue;
+        overflow: hidden;
+    }
+    
+    header {
+        background-color: springgreen;
+        border: solid 1px red;
+        text-align: center;
+    }
+    
+    #centralizar {
+        text-align: center;
+        position: absolute;
+        top: 20%;
+        width: 100%;
+    }
+    
+    .imagemDeFundo {
+        height: 160px;
+        background: blue url(img/imagem1.png) no-repeat center;
+    }
+    
+    span,
+    input {
+        margin-top: 20px;
+        color: red;
+        font-size: 24px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #btnCalcular {
+        padding: 10px;
+        width: 200px;
+        height: 50px;
+        display: inline-block;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 4px;
+        background: #00FF00;
+        transition: all 0.2s;
+    }
+    
+    #btnCalcular:hover {
+        background: black;
+        color: white;
+    }
+    
+    .imagemDeFundo1 {
+        height: 160px;
+        background: blue url(img/imagem2.png) no-repeat center;
+    }
+    
+    .imagemDeFundo2 {
+        height: 160px;
+        background: blue url(img/imagem3.png) no-repeat center;
+    }
