@@ -1,9 +1,9 @@
  function entradaValor() {
      var gasolina = parseFloat(document.getElementById('valorGasolina').value)
-     gasolina = parseFloat(gasolina)
+
 
      var alcool = parseFloat(document.getElementById('valorAlcool').value)
-     alcool = parseFloat(alcool)
+
      return alcool / gasolina
 
  }
